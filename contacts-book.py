@@ -87,6 +87,7 @@ def safe_save_contacts(data: dict) -> None:
     except Exception as e:
         print(f"\n{COLOR_ERR}{ICON_FAIL} ERROR saving contacts: {e}{Style.RESET_ALL}")
         time.sleep(_MED)
+        pause()
 
 # ---------- Small UI helpers ----------
 
